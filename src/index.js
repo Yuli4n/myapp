@@ -10,12 +10,11 @@ import Post from "./Post";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-//  <Container className="mt-3">
-//    <Row>
-//      <Post author="John Doe" content="This is the post content" likes={20} />
-//      <Post author="Anne Hill" content="I like React" likes={3} />
-//      <Post author="Laia Martins" content="I love JSX" likes={0} />
-//    </Row>
-//  </Container>
-<h1>Hello, world!</h1>
+ <Container className="mt-3">
+   <Row>
+     <Post author="John Doe" content="This is the post content" likes={20} />
+     <Post author="Anne Hill" content="I like React" likes={3} />
+     <Post author="Laia Martins" content="I love JSX" likes={0} />
+   </Row>
+ </Container>
 );
